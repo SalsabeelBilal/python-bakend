@@ -1,26 +1,10 @@
 def remove_duplicates(words: list) -> set:
-    """
-    Remove duplicate words using a set.
-
-    Args:
-        words (list): A list of words (strings).
-
-    Returns:
-        set: A set of unique words.
-    """
-    return set(words)
+  
+    return set(word.lower() for word in words)
 
 
 def count_word_frequency(words: list) -> dict:
-    """
-    Count the frequency of each word in a list using a dictionary.
-
-    Args:
-        words (list): A list of words (strings).
-
-    Returns:
-        dict: A dictionary where keys are words and values are their frequencies.
-    """
+   
     word_count = {}
     for word in words:
         word = word.lower() 
