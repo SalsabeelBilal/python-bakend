@@ -2,10 +2,8 @@ def manipulate_data(numbers: list) -> dict:
     # Sort the list
     sorted_numbers = sorted(numbers)
 
-    # Filter out even numbers
     filtered_numbers = [num for num in numbers if num % 2 != 0]
 
-    # Transform: Square each number
     squared_numbers = [num ** 2 for num in numbers]
 
     return {
@@ -36,3 +34,5 @@ if __name__ == "__main__":
 
     print("\nTuple manipulation results:")
     print(manipulate_tuples(numbers_tuple))
+
+

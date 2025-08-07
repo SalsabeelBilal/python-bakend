@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     # Example: Merge dictionaries
     dict_a = {"name": "Alice", "age": 25}
-    dict_b = {"city": "New York", "age": 30}  # Note: "age" will be overwritten
+    dict_b = {"city": "New York", "age": 30}  
     merged_dict = merge_dictionaries(dict_a, dict_b)
     print("Merged dictionary:", merged_dict)
 
