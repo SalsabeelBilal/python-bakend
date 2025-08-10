@@ -1,0 +1,6 @@
+192.168.0.1 200 /index.html
+192.168.0.2 404 /page-not-found
+192.168.0.3 500 /server-crash
+192.168.0.4 200 /about
+192.168.0.5 200 /contact
+192.168.0.6 404 /missing

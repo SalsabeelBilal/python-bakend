@@ -1,0 +1,4 @@
+Python is a high-level , easy-to-learn, open-source , extensible , object-oriented , interpreted , and versatile programming language .
+ It is widely used in many fields, such as building standalone programs with graphical interfaces , and web applications . It is used as a scripting language that runs many software programs, 
+ such as Blender . It is equally useful for creating programs that are easy for beginners,  and for large-scale projects. Most beginners in programming are advised to learn it,
+  as it is one of the fastest programming languages to learn. 
