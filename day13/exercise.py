@@ -3,7 +3,7 @@ import random
 
 async def download_file(filename):
     print(f"Starting download: {filename}")
-    await asyncio.sleep(random.randint(1, 5))  # Simulated download time
+    await asyncio.sleep(random.randint(1, 5))  
     print(f"Finished download: {filename}")
 
 async def main():
